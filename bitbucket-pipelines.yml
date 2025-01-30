@@ -1,0 +1,6 @@
+pipelines:
+  branches:
+     staging:
+       - step:
+            script: 
+                - git push ssh://ubuntu@13.127.47.251/home/ubuntu/needibay_auto_synch/ staging
